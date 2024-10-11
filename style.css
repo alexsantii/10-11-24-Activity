@@ -1,0 +1,40 @@
+body {
+  background-color: #e6ffe6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.description {
+  margin: 10%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 5%;
+  max-width: 60%;
+}
+
+.text {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin: 50px;
+  gap: 12px;
+}
+
+button {
+  border-radius: 5px;
+  border: 2px solid #04aa6d;
+  cursor: pointer;
+  padding: 5px 10px;
+}
